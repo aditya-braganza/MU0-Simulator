@@ -1,0 +1,4 @@
+LDA 0x010   ; Load value from memory address 0x010 into the Accumulator
+ADD 0x011   ; Add value from memory address 0x011 to the Accumulator
+STO 0x012   ; Store the result from the Accumulator into memory address 0x012
+STP         ; Stop/Halt execution
